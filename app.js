@@ -2,4 +2,5 @@
   'use strict';
 
 angular.module('NarrowItDownApp',[])
-  .controller('NarrowItDownController', NarrowItDownController);
+  .controller('NarrowItDownController', NarrowItDownController)
+  .service('MenuSearchService', MenuSearchService);
