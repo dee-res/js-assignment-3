@@ -10,7 +10,8 @@ angular.module('NarrowItDownApp',[])
     var ddo = {
       templateUrl: 'foundItems.html',
       scope: {
-        items: '<'
+        items: '<',
+        title: '@'
       },
       controller: FoundItemsDirectiveController,
       controllerAs: 'found',
@@ -22,6 +23,7 @@ angular.module('NarrowItDownApp',[])
 
   function FoundItemsDirectiveController() {
     var found = this;
+    found.getMatchedMenuItems
 
   
 
