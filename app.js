@@ -23,7 +23,9 @@ angular.module('NarrowItDownApp',[])
 
   function FoundItemsDirectiveController() {
     var found = this;
-    found.getMatchedMenuItems
+    
+    found.getMatchedMenuItems = function() {
+      for var
 
   
 
